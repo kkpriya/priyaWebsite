@@ -144,14 +144,10 @@ blockquote {
 .backstretch:before {
     content: '';
     background-image: url(../images/overlays/04.png);
-    max-width: 50%;
-    max-height: auto;
-    width: auto;
-    height: auto;
-    min-width: auto;/*Note the px*/
-    min-height: auto;
-
-    position: absolute;
+    height:100%
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: block;
     z-index: -1;
 }
