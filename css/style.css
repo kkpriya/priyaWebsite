@@ -146,11 +146,11 @@ blockquote {
     background-image: url(../images/overlays/04.png);
     max-width: 50%;
     max-height: auto;
-    width: 50%;
+    width: auto;
     height: auto;
-    min-width: 100px;/*Note the px*/
+    min-width: auto;/*Note the px*/
     min-height: auto;
-    
+
     position: absolute;
     display: block;
     z-index: -1;
